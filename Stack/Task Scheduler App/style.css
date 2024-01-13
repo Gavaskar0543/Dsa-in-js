@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing:border-box;
+}
+#show-task-btn{
+    border-radius: 8px;
+    color:white;
+    background-color: black;
+    
+}
+#taskContainer{
+    margin:auto;
+    width: 50vh;
+    height:50vh;
+    border: 1px dashed blue;
+    overflow-y:scroll;
+}

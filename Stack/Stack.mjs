@@ -1,5 +1,5 @@
 //first in first out
-class stack{
+  class stack{
     //constructior
     constructor(){
         this.data = [];
@@ -49,11 +49,14 @@ class stack{
    toArray(){
     return [...this.data];
    }
+   //copy the orignal stack and return the new stack
    copy() {
     const newStack = new stack();
     newStack.data = [...this.data];
     return newStack;
 }
 }
+
+
 
 export default stack;
