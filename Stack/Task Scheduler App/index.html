@@ -7,14 +7,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <section class="navbar">
+        <div id="brand-name">
+          <p>Task Scheduler</p>
+        </div>
+        <div id="user-credintials">
+            <ul type="none">
+                <li>create Account</li>
+                <li>signin</li>
+            </ul>
+        </div>
+    </section>
+    <section id="task-section">
+    <div id="task-entery">
+        <div>
     <input type="text" id="newTask" placeholder="enter your task"/>
-    <button id="newTaskbtn">Add to task list</button>
+</div><div> <label for="taskdate">Date</label>
+    <input type="date" id="taskdate"  />
+</div><div> <label for="tasktime">Time</label>
+     <input type="time" id="tasktime" />
+    </div><div> <button id="newTaskbtn">Add to task list</button>
+    </div>
    </div>
-   <button id="show-task-btn" title="click to see tasks">Show task</button>
    <div id="taskContainer">
 
    </div>
+</section>
 
 
    <script src="../playGround.mjs" type="module"></script>

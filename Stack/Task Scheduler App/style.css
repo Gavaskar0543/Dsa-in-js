@@ -4,16 +4,51 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing:border-box;
 }
-#show-task-btn{
-    border-radius: 8px;
+#newTaskbtn{
+    border-radius: 2px;
     color:white;
     background-color: black;
+    cursor: pointer;
     
 }
+.navbar{
+    display:flex;
+    height:2rem;
+    justify-content: space-between;
+    align-items: center;
+    border:2px solid;
+    color:white;
+    background:linear-gradient(30deg,orange,yellow);
+    }
+#user-credintials ul li{
+    display: inline-block;
+    justify-content: space-around;
+    font-weight: 900;
+    cursor: pointer;
+    color:black;
+    transition: border 0.5s ease-in-out;
+}
+#user-credintials ul li:hover{
+    border-bottom: 1px solid red;
+
+}
 #taskContainer{
-    margin:auto;
-    width: 50vh;
+    width: 70vh;
     height:50vh;
     border: 1px dashed blue;
     overflow-y:scroll;
+}
+
+#task-section{
+  display: flex;
+  padding:5%;
+   
+}
+#task-entery{
+    display: flex;
+    width:30vw;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border:1px solid;
 }
