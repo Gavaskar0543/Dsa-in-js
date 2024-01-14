@@ -65,11 +65,4 @@ class Queue{
 
 }
 
-const test = new Queue();
-let girlfriends = ['swetha','gayathri','kavya','Charanya']
-for(let angles of girlfriends){
-    test.enqueue(angles);
-}
-// console.log(test.getRear());
-test.printQueu();
-console.log(test.reverseQueue());
+export default Queue;
